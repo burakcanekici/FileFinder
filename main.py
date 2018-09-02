@@ -8,6 +8,7 @@ def traverseAllAndFindFile(root, desire):
                 path = directoryName + '/' + file
                 print('[%d] %s' %(count, path))
                 count = count+1
+    print("----- Finished Successfuly! -----")
 
 operation = sys.argv[1]
 if(operation == 'F'):
